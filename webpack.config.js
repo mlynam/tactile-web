@@ -6,6 +6,6 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: `${pkg.name}.[hash:8].js`
-  }
+    filename: `${pkg.name}.[hash:8].js`,
+  },
 };
