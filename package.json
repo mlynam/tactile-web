@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/mlynam/tactile-web/issues"
   },
-  "homepage": "https://github.com/mlynam/tactile-web#readme"
+  "homepage": "https://github.com/mlynam/tactile-web#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.0.0",
+    "eslint-config-google": "^0.8.0",
+    "webpack": "^3.0.0"
+  }
 }
