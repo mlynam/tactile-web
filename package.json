@@ -3,8 +3,11 @@
   "version": "0.0.1",
   "description": "Game engine targeting the web platform",
   "scripts": {
+    "start": "electron .",
+    "build": "electron-packager .",
     "test": "jest"
   },
+  "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlynam/tactile-web.git"
@@ -21,9 +24,9 @@
   },
   "homepage": "https://github.com/mlynam/tactile-web#readme",
   "devDependencies": {
-    "babel-eslint": "^7.2.3",
+    "electron": "^1.6.11",
+    "electron-packager": "^8.7.1",
     "eslint": "^4.0.0",
-    "eslint-config-google": "^0.8.0",
-    "webpack": "^3.0.0"
+    "eslint-config-google": "^0.8.0"
   }
 }
