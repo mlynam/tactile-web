@@ -7,7 +7,7 @@
     "build": "electron-packager .",
     "test": "jest"
   },
-  "main": "src/index.js",
+  "main": "main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlynam/tactile-web.git"
@@ -27,6 +27,8 @@
     "electron": "^1.6.11",
     "electron-packager": "^8.7.1",
     "eslint": "^4.0.0",
-    "eslint-config-google": "^0.8.0"
+    "eslint-config-google": "^0.8.0",
+    "jest": "^20.0.4",
+    "performance-now": "^2.1.0"
   }
 }
