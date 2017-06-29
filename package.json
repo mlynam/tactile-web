@@ -5,6 +5,7 @@
   "scripts": {
     "start": "electron .",
     "build": "electron-packager .",
+    "make-mocks-data": "node tools/genMockGameObject",
     "test": "jest"
   },
   "main": "main.js",
