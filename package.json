@@ -3,12 +3,12 @@
   "version": "0.0.1",
   "description": "Game engine targeting the web platform",
   "scripts": {
-    "start": "electron .",
+    "start:editor": "cross-env NODE_ENV=editor electron .",
+    "start:engine": "cross-env NODE_ENV=engine electron .",
     "build": "electron-packager .",
-    "make-mocks-data": "node tools/genMockGameObject",
     "test": "jest"
   },
-  "main": "main.js",
+  "main": "src/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mlynam/tactile-web.git"
@@ -25,11 +25,15 @@
   },
   "homepage": "https://github.com/mlynam/tactile-web#readme",
   "devDependencies": {
+    "cross-env": "^5.0.1",
     "electron": "^1.6.11",
     "electron-packager": "^8.7.1",
     "eslint": "^4.0.0",
     "eslint-config-google": "^0.8.0",
     "jest": "^20.0.4",
     "performance-now": "^2.1.0"
+  },
+  "dependencies": {
+    "redux": "^3.7.1"
   }
 }
